@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Thêm nền nhạt để nổi bật chữ */
+}
+
+.language-selector {
+    margin-bottom: 20px;
+}
+
+.flag {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.flag:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    color: #333; /* Màu chữ của tiêu đề */
+    font-size: 2em;
+}
+
+p {
+    color: #666; /* Màu chữ của đoạn văn */
+    font-size: 1.2em;
+}
